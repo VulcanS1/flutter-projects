@@ -50,21 +50,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBLiY7Isxf7yGowPBPfYXmBtZfaSS7OPFA',
-    appId: '1:530503043590:android:929f65fbca90b2ab5c5187',
-    messagingSenderId: '530503043590',
-    projectId: 'flutter-prep-d3161',
-    databaseURL: 'https://flutter-prep-d3161-default-rtdb.firebaseio.com',
-    storageBucket: 'flutter-prep-d3161.appspot.com',
+    apiKey: ,
+    appId: ,
+    messagingSenderId:,
+    projectId: ,
+    databaseURL: ,
+    storageBucket: ,
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDEMgSSA8glx7MQm78GwoPY6z-lvdjgFlE',
-    appId: '1:530503043590:ios:dea517ab8a591f9f5c5187',
-    messagingSenderId: '530503043590',
-    projectId: 'flutter-prep-d3161',
-    databaseURL: 'https://flutter-prep-d3161-default-rtdb.firebaseio.com',
-    storageBucket: 'flutter-prep-d3161.appspot.com',
-    iosBundleId: 'com.example.chatApp',
+    apiKey: ,
+    appId: ,
+    messagingSenderId:,
+    projectId: ,
+    databaseURL: ,
+    storageBucket: ,
+    iosBundleId: ,
   );
 }
