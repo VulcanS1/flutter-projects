@@ -31,8 +31,6 @@ class _GroceryListState extends State<GroceryList> {
     });
     
     final url = Uri.https(
-      'shopping-list-1ee1f-default-rtdb.firebaseio.com',
-      'shopping-list/${item.id}.json',
     );
     final response = await http.delete(url);
     
@@ -46,8 +44,6 @@ class _GroceryListState extends State<GroceryList> {
 
   void _loadItems() async {
     final url = Uri.https(
-      'shopping-list-1ee1f-default-rtdb.firebaseio.com',
-      'shopping-list.json',
     );
 
     try {
